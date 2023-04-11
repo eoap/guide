@@ -1,4 +1,4 @@
-# Developer's Guide for Earth Observation Applications 
+# Developer's Guide for Earth Observation Application Packages
 
 ## Introduction
 This guide aims to help developers create Earth Observation (EO) applications using the Common Workflow Language (CWL). It provides an overview of the CWL, its key concepts, and demonstrates how to build a CWL-based EO application using practical examples.
