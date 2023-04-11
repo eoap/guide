@@ -8,9 +8,8 @@ This guide aims to help developers create Earth Observation (EO) applications us
 ## Common Workflow Language (CWL) Overview
 CWL is a specification for describing analysis workflows and tools in a way that makes them portable and scalable across various platforms. CWL is designed to meet the needs of data-intensive science, such as genomics, bioinformatics, and Earth Observation  
 
-[[more]](./CWL.md)
 
-## CWL Key Concepts
+### CWL Key Concepts
 
  * Workflow: A sequence of processing steps that describe how to transform input data into the desired output.
  * CommandLineTool: Represents a command-line tool in the CWL, including its inputs, outputs, and command-line options.
@@ -18,14 +17,13 @@ CWL is a specification for describing analysis workflows and tools in a way that
  * Requirements and Hints: Used to specify optional or mandatory configurations for a CWL tool or workflow.
  * Scatter and Gather: Techniques used to parallelize the execution of a workflow step over multiple input items.
  
- [[more]](./KEYCONCEPTS.md)
+[[more]](./CWL.md)
 
 
 ## Getting Started with CWL
  * Install a CWL runner, such as cwltool, which is a reference implementation of the CWL standard.
  * Familiarize yourself with the YAML syntax, as CWL documents are typically written in YAML.
 
-[[more]](./STARTED.md)
  
 ## Building a CWL-based EO Application
 ### Define a CommandLineTool
