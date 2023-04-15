@@ -44,8 +44,8 @@ CWL is a specification for describing analysis workflows and tools in a way that
   * Use the CWL runner (cwltool) to execute the workflow, providing the workflow file and a YAML file containing input parameters.
 
 Here are some examples: 
- *  [NDVI from Sentinel-2](./NDVI.md)
- *  TBD
+ *  Calculate a [NDVI](./NDVI.md) from Sentinel-2
+ *  [Crop](./CROP.md) a Sentinel-2 product using a Python script
  *  TBD
  
  
