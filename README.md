@@ -5,6 +5,11 @@ This guide aims to help developers create Earth Observation (EO) applications us
 
 [[more]](./INTRO.md)
 
+## Prerequistes 
+ * Install a CWL runner, such as cwltool, which is a reference implementation of the CWL standard.
+ * Familiarize yourself with the YAML syntax, as CWL documents are typically written in YAML.
+[[more]](./INSTALL.md)
+
 ## Common Workflow Language (CWL) Overview
 CWL is a specification for describing analysis workflows and tools in a way that makes them portable and scalable across various platforms. CWL is designed to meet the needs of data-intensive science, such as genomics, bioinformatics, and Earth Observation  
 
@@ -19,11 +24,11 @@ CWL is a specification for describing analysis workflows and tools in a way that
  
 [[more]](./CWL.md)
 
-
 ## Getting Started with CWL
- * Install a CWL runner, such as cwltool, which is a reference implementation of the CWL standard.
- * Familiarize yourself with the YAML syntax, as CWL documents are typically written in YAML.
- * 
+
+ * Common Workflow Language (CWL) role in creating reproducible and shareable workflows in Earth Observation applications.
+ * We'll walk you through the process of creating and running a simple EO application using CWL with a step-by-step guide
+ 
 [[more]](./START.md) [[alternative]](./START2.md)
 
  
