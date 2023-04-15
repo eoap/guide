@@ -34,18 +34,21 @@ CWL is a specification for describing analysis workflows and tools in a way that
 
  
 ## Building a CWL-based EO Application
-### Define a CommandLineTool
-Create a YAML file describing the command-line tool, including its inputs, outputs, base command, and requirements.
-Use DockerRequirement to specify the Docker image to be used for running the tool.
+1. Define a CommandLineTool
+  * Create a YAML file describing the command-line tool, including its inputs, outputs, base command, and requirements.
+  * Use DockerRequirement to specify the Docker image to be used for running the tool.
+2.  Create a Workflow
+  * Define a Workflow class that orchestrates the CommandLineTools.
+  * Specify the inputs, outputs, and processing steps in the workflow.
+3. Run the CWL Workflow
+  * Use the CWL runner (cwltool) to execute the workflow, providing the workflow file and a YAML file containing input parameters.
 
-### Create a Workflow
-Define a Workflow class that orchestrates the CommandLineTools.
-Specify the inputs, outputs, and processing steps in the workflow.
-
-### Run the CWL Workflow
-
-Use the CWL runner (cwltool) to execute the workflow, providing the workflow file and a YAML file containing input parameters.
-
+Here are some examples: 
+ *  [NDVI from Sentinel-2](./NDVI.md)
+ *  TBD
+ *  TBD
+ 
+ 
 ## Advanced CWL Techniques
 ### Scatter and Gather
 Use ScatterFeatureRequirement to parallelize the execution of a workflow step over multiple input items.
