@@ -23,6 +23,7 @@ CWL is a specification for describing analysis workflows and tools in a way that
 ## Getting Started with CWL
  * Install a CWL runner, such as cwltool, which is a reference implementation of the CWL standard.
  * Familiarize yourself with the YAML syntax, as CWL documents are typically written in YAML.
+[[more]](./START.md) [[alternative]](./START2.md)
 
  
 ## Building a CWL-based EO Application
