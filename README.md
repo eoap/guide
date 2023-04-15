@@ -46,6 +46,7 @@ CWL is a specification for describing analysis workflows and tools in a way that
 Here are some examples: 
  *  Calculate a [NDVI](./NDVI.md) from Sentinel-2
  *  [Crop](./CROP.md) a Sentinel-2 product using a Python script
+ *  [Crop](./STAC_CROP.md) a Sentinel-2 product using a Python script and STAC
  *  TBD
  
  
